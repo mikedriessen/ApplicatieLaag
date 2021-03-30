@@ -18,7 +18,6 @@ Label(root, text ='Mike-IPFinder', font ='arial 15 bold').pack(side = BOTTOM)
 hostname = socket.gethostname()
 ## getting the IP address using socket.gethostbyname() method
 ip_address = socket.gethostbyname(hostname)
-
 ## printing the hostname and ip_address
 str = StringVar() #variable str contains StringVar
 def Generator():
